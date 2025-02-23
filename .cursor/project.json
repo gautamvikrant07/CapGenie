@@ -1,0 +1,26 @@
+{
+    "name": "CapGenie",
+    "description": "AI-driven regulatory reporting chatbot platform",
+    "version": "1.0.0",
+    "type": "application",
+    "domains": ["regulatory-reporting", "ai-chatbot", "compliance"],
+    "contexts": {
+      "business": "Financial regulatory reporting and compliance",
+      "technical": "AI-powered chatbot with role-based access",
+      "security": "Enterprise-grade security with role-based authentication"
+    },
+    "roles": [
+      {
+        "name": "regulatory_sme",
+        "description": "Regulatory Subject Matter Expert with database access"
+      },
+      {
+        "name": "research_analyst",
+        "description": "Research and analysis focused user"
+      },
+      {
+        "name": "developer",
+        "description": "Technical developer with system access"
+      }
+    ]
+  }

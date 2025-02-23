@@ -1,0 +1,13 @@
+fastapi==0.109.2
+uvicorn[standard]==0.27.1
+sqlalchemy==2.0.27
+alembic==1.13.1
+pydantic==2.5.3  # Using a more stable version
+pydantic-settings==2.1.0
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.7
+aiosqlite==0.19.0  # Using SQLite for development
+pymysql==1.1.0  # Alternative database driver
+cryptography==42.0.2
+python-dotenv==1.0.1
